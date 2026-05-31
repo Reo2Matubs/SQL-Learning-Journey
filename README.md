@@ -1,12 +1,12 @@
-SQL Learning Journey 
+# SQL Learning Journey
 
 A structured, beginner-to-advanced series of MySQL exercises built on a fictional **Parks and Recreation** employee database. Each file isolates one concept, progresses logically from the last, and is written with clear comments designed for revision and reference.
 
-
+---
 
 Repository Structure
 
-
+```
 SQL-Learning-Journey/
 │
 ├── README.md
@@ -29,11 +29,11 @@ SQL-Learning-Journey/
     ├── 13_temporary_tables.sql
     ├── 14_stored_procedures.sql
     └── 15_triggers_and_events.sql
+```
 
+---
 
-
-
- Database Overview
+Database Overview
 
 All queries run against the `Parks_and_Recreation` database, which contains three tables:
 
@@ -49,7 +49,7 @@ Run `database/01_create_database.sql` first to create and seed the database befo
 
 Topics Covered
 
-|  | File | Concepts |
+| # | File | Concepts |
 |---|---|---|
 | 01 | `01_create_database.sql` | DDL, CREATE TABLE, INSERT INTO |
 | 02 | `02_select_statements.sql` | SELECT, arithmetic expressions, DISTINCT |
@@ -71,10 +71,10 @@ Topics Covered
 
 Getting Started
 
-Prerequisites
+### Prerequisites
 - [MySQL](https://dev.mysql.com/downloads/) 8.0+ or [MySQL Workbench](https://www.mysql.com/products/workbench/)
 
-Setup
+### Setup
 
 1. Clone the repository:
    ```bash
@@ -116,6 +116,6 @@ This project follows the [Alex the Analyst](https://www.youtube.com/@AlexTheAnal
 
 ---
 
-License
+## License
 
 This repository is for educational purposes. The Parks and Recreation character names are the property of their respective owners and are used here solely as sample data.
