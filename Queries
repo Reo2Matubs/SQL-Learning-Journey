@@ -1,7 +1,0 @@
-SQL-Learning-Journey/
-├── README.md          ← already there from GitHub
-├── database/
-│   └── 01_create_database.sql
-└── queries/
-    ├── 02_select_statements.sql
-    └── ... (all remaining files)
